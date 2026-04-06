@@ -1,0 +1,8 @@
+{
+  "name": "Pentaho Kettle Development",
+  "image": "mcr.microsoft.com/devcontainers/java:11",
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {}
+  },
+  "postCreateCommand": "java -version && mvn -version"
+}
